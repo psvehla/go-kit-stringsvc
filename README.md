@@ -3,9 +3,9 @@
 stringsvc from the go-kit examples
 
 ```bash
-go build main.go
+go build
 
-./main &
+./go-kit-stringsvc &
 [1] 96217
 
 curl -XPOST -d'{"s":"hello, world"}' localhost:8080/uppercase
